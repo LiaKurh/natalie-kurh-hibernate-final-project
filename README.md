@@ -69,19 +69,15 @@ errors, bugs, and vulnerabilities. According to **JaCoCo** report, overall code 
 1. **Install:**
     * **Java Development Kit (JDK) 17** or higher.
     * **Apache Maven**.
-    
 2. **Clone the Repository:**
-   Fork and clone this project from the GitHub repository to your local machine.
-
+Fork and clone this project from the GitHub repository to your local machine.
 3. **Run the Application:**
    Open the project in your IDE (e.g., IntelliJ IDEA) 
-
 4. **Start the Redis server:**
    Enter the command in your terminal:
    ```bash
    docker compose up -d
    ```
-
 5. **Execute the Benchmark Application:**
    Run the main benchmark tests directly from your IDE or use the Maven command:
    ```bash
